@@ -55,4 +55,4 @@ str_replace_all(Nonsense, "Bee", "Donkey")
 # Exercise 6 ----------------------------------------------------------------------------------------------------------
 
 # Wrap the Frankenstein text into a paragraph with at most 80 characters per line.
-str_wrap(Frankenstein, width = 80)
+str_wrap(Frankenstein)
