@@ -39,7 +39,7 @@ Nonsense <- str_c(Nonsense, sep = " ", collapse = "\n")
 # Exercise 3 ----------------------------------------------------------------------------------------------------------
 
 # Count the number of times that the word "me" appears in Frankenstein. Resist the urge to do this manually!
-str_count(Frankenstein, "me")
+str_count(Frankenstein, "\\bme\\b")
 # Exercise 4 ----------------------------------------------------------------------------------------------------------
 
 # Find the position of the word "courage" in Frankenstein.
