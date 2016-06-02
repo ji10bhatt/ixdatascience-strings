@@ -35,7 +35,7 @@ Frankenstein <- str_c(frankenstein, sep = " ", collapse = "")
 # Store the result as Nonsense.
 Nonsense <- str_split(nonsense, "\n")
 Nonsense <- str_trim(Nonsense[[1]], side = "both")
-Nonsense <- str_c(Nonsense, sep = " ", collapse = "\n")
+Nonsense <- str_c(Nonsense, sep = "\n", collapse = "")
 # Exercise 3 ----------------------------------------------------------------------------------------------------------
 
 # Count the number of times that the word "me" appears in Frankenstein. Resist the urge to do this manually!
