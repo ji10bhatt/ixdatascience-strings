@@ -43,10 +43,10 @@ str_count(Frankenstein, "\\bme\\b")
 # Exercise 4 ----------------------------------------------------------------------------------------------------------
 
 # Find the position of the word "courage" in Frankenstein.
-str_locate(Frankenstein, "courage")
+str_locate(Frankenstein, "\\bcourage\\b")
 
 # Find the positions of all occurrences of the word "own" in Frankenstein.
-str_locate_all(Frankenstein, "own")
+str_locate_all(Frankenstein, "\\bown\\b")
 
 # Exercise 5 ----------------------------------------------------------------------------------------------------------
 
